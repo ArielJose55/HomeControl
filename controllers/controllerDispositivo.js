@@ -1,7 +1,7 @@
 'use-strict'
 
-const Dispositivo = require('../models/index').Dispositivo;
-const Sensor = require('../models/index').Sensor;
+const Dispositivo = require('../database').Dispositivo;
+const Sensor = require('../database').Sensor;
 const RegistroMedida = require('../models/mongo/registroMedida');
 const DispositivoControl = require('../models/mongo/dispositivoControl');
 
